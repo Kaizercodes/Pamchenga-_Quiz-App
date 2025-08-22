@@ -1,0 +1,89 @@
+#Start, #Restart{
+     -fx-background-color: green;
+     -fx-text-fill: white;
+     -fx-font-weight: bold;
+}
+
+#Start:hover{
+    -fx-background-color : #2E8B57;
+}
+
+#Restart:hover{
+    -fx-background-color : #2E8B57;
+}
+
+#Exit{
+    -fx-background-color: Red;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#Exit:hover{
+    -fx-background-color : #DC143C;
+}
+
+.root {
+    -fx-background-image: url("Image1.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+#FEEDBACK{
+     -fx-font-size: 18px;
+     -fx-font-weight: bold;
+     -fx-padding: 10px;
+
+}
+
+#QUESTIONS{
+     -fx-font-size: 20px;
+     -fx-font-weight: bold;
+     -fx-text-fill: #FFD700; /* golden yellow */
+     -fx-padding: 10px;
+}
+
+/* Option buttons */
+.button {
+    -fx-background-color: #1E3A8A;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-background-radius: 10px;
+    -fx-padding: 12px;
+    -fx-cursor: hand;
+}
+
+/* Hover effect */
+.button:hover {
+    -fx-background-color: #3B82F6;
+}
+
+.correct {
+    -fx-text-fill: green;
+}
+
+.wrong {
+    -fx-text-fill: red;
+}
+
+#Words{
+    -fx-text-fill : #F5F5DC;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+}
+
+#Timer{
+        -fx-text-fill : #F5F5DC;
+        -fx-font-size: 20px;
+        -fx-font-weight: bold;
+        -fx-padding: 10px;
+}
+
+#TradeMark{
+    -fx-font-size: 14px;
+    -fx-text-fill: #F5F5F5;
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+    -fx-font-style: italic;
+}
